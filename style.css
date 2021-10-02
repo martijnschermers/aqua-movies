@@ -128,12 +128,17 @@ h3 {
 .jumbotron .jumbotron-fluid {
     padding: 0;
     margin: 0;
+    background-color: #0B0C10; 
 }
 
-.content-right img {
-    margin: 5px auto;
-    width: 270px;
-    height: 381px;
+p {
+    font-size: 1.3rem;
+}
+
+img[src="img/daniel.jpg"], img[src="img/007_cast.jpg"] {
+    width: 500px; 
+    height: auto;
+    object-fit: contain;
 }
 
 .checked {

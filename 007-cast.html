@@ -5,27 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>No Time To Die Cast</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <a href="index.html" class="navbar-brand"><img src="img/logo.jpg" alt="Logo" class="d-inline-block align-top"></a> 
+    <nav class="navbar navbar-expand-lg" aria-label="navbar">
+        <a href="index.html" class="navbar-brand"><img src="img/logo.jpg" alt="Logo"
+                class="d-inline-block align-top"></a>
         <h1 class="text-uppercase">Aqua Movies</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>  
+        </button>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav list-inline d-inline-block">
                 <li class="nav-item list-inline-item">
-                    <a href="filminput.html" class="nav-link badge badge-primary"><h3>Formulier</h3></a>
+                    <a href="filminput.html" class="nav-link badge badge-primary">
+                        <h3>Formulier</h3>
+                    </a>
                 </li>
 
                 <li class="nav-item list-inline-item">
-                    <a href="index.html#movies" class="nav-link badge badge-primary"><h3>Films</h3></a>
+                    <a href="index.html#movies" class="nav-link badge badge-primary">
+                        <h3>Films</h3>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -46,8 +54,35 @@
         </ol>
     </nav>
 
-        <div class="content-right">
-            <p>De cast bestaat uit Rami Malek, Léa Seydoux, Lashana Lynch, Ben Whishaw, Naomie
+    <div class="container">
+        <div class="content d-flex flex-row">
+            <img src="img/daniel.jpg" alt="James Bond">
+            <p class="text-left p-3"> In 2005 werd Craig door EON Productions gekozen om de nieuwe James Bond te
+                vertolken. De toen 37-jarige acteur trad in de voetsporen van Pierce Brosnan. Op 14 oktober 2005 werd
+                hij na een boottocht op de Thames aan de pers voorgesteld. Craig was de eerste Bondacteur die na 1962,
+                het begin van de filmreeks, en het overlijden van Ian Fleming, de schrijver van de boeken waarop de
+                filmreeks gebaseerd is, geboren werd. In de maanden na de bekendmaking werd de keuze voor Craig
+                regelmatig bekritiseerd omdat hij met zijn blonde haren, blauwe ogen en gemiddelde lengte (178 cm) niet
+                voldeed aan wat toen beschouwd werd als de fysieke vereisten voor de rol van James Bond. Er verschenen
+                verscheidene internetcampagnes die opriepen om zijn eerste Bondfilm te boycotten. In november 2006 ging
+                Casino Royale in première. Zijn eerste Bondfilm werd een kassucces; wereldwijd bracht de film zo'n 600
+                miljoen dollar op<span id="dots">...</span><span id="more">De filmpers prees ook Craigs acteerprestatie en geloofwaardigheid. Reeds in juli 2006
+                kondigden producenten Barbara Broccoli en Michael G. Wilson aan dat de volgende Bondfilm Quantum of
+                Solace zou heten en dat de film in 2008 in première zou gaan. Door de Writers' Strike, een staking van
+                de Writers Guild of America in de periode 2007-2008, werden Craig en regisseur Marc Forster verplicht om
+                zelf enkele scènes te schrijven. Quantum of Solace bracht meer dan 580 miljoen dollar op, maar kreeg
+                minder positieve recensies dan zijn voorganger. In 2008 werkte Craig ook mee aan de videogame 007:
+                Quantum of Solace.</span>
+                <button onclick="readMore()" id="myBtn" class="btn btn-primary">Lees meer</button>
+            </p>
+        </div>
+    </div>
+
+    <div class="container p-3">
+        <div class="content d-flex flex-row-reverse">
+            <img src="img/007_cast.jpg" alt="No Time To Die Cast">
+            <p class="p-2"> De cast bestaat uit Rami Malek, Léa Seydoux, Lashana Lynch, Ben Whishaw,
+                Naomie
                 Harris, Billy Magnussen, Ana de Armas, Rory Kinnear, David Dencik, Dali Benssalah, Jeffrey Wright en
                 Ralph Fiennes. Deze co-productie van Albert R. Broccoli’s
                 EON Productions, Metro Goldwyn Mayer Studios (MGM) en Universal Pictures International is
@@ -56,14 +91,22 @@
                 (Contagion, The Bourne Ultimatum) en Phoebe Waller-Bridge (Killing Eve, Fleabag).
             </p>
         </div>
+    </div>
 
-        <footer>
-            <h2>Klik <a href="about.html" class="link">hier</a> om meer te weten te komen over deze website!</h2>
-            <h2>Webdesign door Martijn</h2>
-        </footer>
+    <footer class="p-3">
+        <h2>Klik <a href="about.html" class="link">hier</a> om meer te weten te komen over deze website!</h2>
+        <h2>Webdesign door Martijn</h2>
+    </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
 </body>
 </html>
