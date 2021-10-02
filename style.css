@@ -101,8 +101,26 @@ h3 {
     font-size: 1.3rem;
 }
 
-.jumbotron {
+.bond {
     background-image: url(img/slide1.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+.bond-cast {
+    background-image: url(img/007-cast.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+.about {
+    background-image: url(img/about.png); 
+    background-size: cover;
+    background-position: center;
+}
+
+.f9-cast {
+    background-image: url(img/f9-cast.jpg); 
     background-size: cover;
     background-position: center;
 }
