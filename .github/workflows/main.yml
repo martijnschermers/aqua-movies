@@ -10,6 +10,6 @@ jobs:
     - name: send custom message with args
       uses: appleboy/discord-action@master
       with:
-        webhook_id: ${{ secrets.https://discordapp.com/api/webhooks/894578604258770984/dCo7iLuKorBrdJAPL0F0c6XZfIS6ccPuQ8aImKYy9nX9ekJGAWCskPm7uYtixRSVHq5K }}
-        webhook_token: ${{ secrets.894578604258770984 }}
+        webhook_id: ${{ https://discordapp.com/api/webhooks/894578604258770984/dCo7iLuKorBrdJAPL0F0c6XZfIS6ccPuQ8aImKYy9nX9ekJGAWCskPm7uYtixRSVHq5K }}
+        webhook_token: ${{ 894578604258770984 }}
         args: The ${{ github.event_name }} event triggered first step.
