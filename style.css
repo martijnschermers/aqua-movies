@@ -63,6 +63,10 @@ h3 {
     transform: scale(1.01);
 }
 
+.review {
+    width: 500px; 
+}
+
 .movies .row{
     align-items: center;
     justify-content: center;
@@ -89,7 +93,7 @@ h3 {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(#66FCF1, #0275d8);
+    background: linear-gradient(#66FCF1, var(--primary));
     border-radius: 100vw;
 }
 
@@ -142,7 +146,7 @@ img[src="img/daniel.jpg"], img[src="img/007_cast.jpg"] {
 }
 
 .checked {
-    color: yellow;
+    color: #FECE00;
 }
 
 .display-3 {

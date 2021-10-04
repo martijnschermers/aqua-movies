@@ -25,8 +25,11 @@ $('.carousel').carousel({
 function searchMovie() {
   let input = document.getElementById('search').value
   input = input.toLowerCase();
-  let x = document.getElementsByClassName('movies');
+  let x = document.getElementsByClassName('movie');
 
+  console.log('kaas'); 
+
+  let i = 1; 
   for (i = 0; i < x.length; i++) {
     if (!x[i].innerHTML.toLowerCase().includes(input)) {
       x[i].style.display = "none";
