@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg" aria-label="navbar">
         <a href="index.html" class="navbar-brand"><img src="img/logo.jpg" alt="Logo"
                 class="d-inline-block align-top"></a>
         <h1 class="text-uppercase">Aqua Movies</h1>
@@ -44,29 +44,41 @@
         </div>
     </div>
 
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item" aria-current="page"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">About</li>
-        </ol>
-    </nav>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item" aria-current="page"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">About</li>
+            </ol>
+        </nav>
 
-    <div class="bottom">
-        <p> Hallo daar, leuk dat je op deze website terecht bent gekomen.
-            Op deze site gaat informatie komen over een aantal films.
-            Mijn naam is Martijn. Ik ben 17 jaar oud en ik ben momenteel bezig met de opleiding informatica aan de
-            Avans.
-            Ik ben momenteel onder andere bezig met het leren van HTML en CSS.
-            Voordat ik aan deze opleiding begon heb ik al wat ervaring opgedaan met HTML en CSS, daarom begrijp ik nu al
-            een
-            hoop. <br><br>
-            <em>Hopelijk vinden jullie het wat!</em>
-        </p>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-sm-10">
+                <div class="card mb-5">
+                    <div class="card-header"><h1>About Me</h1></div>
+                    <div class="card-body">
+                        <p class="card-text"> Hallo daar, leuk dat je op deze website terecht bent gekomen.
+                            Op deze site gaat informatie komen over een aantal films.
+                            Mijn naam is Martijn. Ik ben 17 jaar oud en ik ben momenteel bezig met de opleiding informatica aan de
+                            Avans.
+                            Ik ben momenteel onder andere bezig met het leren van HTML en CSS.
+                            Voordat ik aan deze opleiding begon heb ik al wat ervaring opgedaan met HTML en CSS, daarom begrijp ik nu al
+                            een
+                            hoop. <br><br>
+                            <em>Hopelijk vinden jullie het wat!</em>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <footer>
+    <div class="navbar fixed-bottom">    
         <h2>Webdesign door Martijn</h2>
-    </footer>
+    </div>
+    
+     
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
