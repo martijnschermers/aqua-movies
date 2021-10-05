@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg" aria-label="navbar">
         <a href="index.html" class="navbar-brand"><img src="img/logo.jpg" alt="Logo"
                 class="d-inline-block align-top"></a>
@@ -32,7 +31,7 @@
                 </li>
 
                 <li class="nav-item list-inline-item">
-                    <a href="#movies" class="nav-link badge badge-primary">
+                    <a href="index.html#movies" class="nav-link badge badge-primary">
                         <h3>Films</h3>
                     </a>
                 </li>
@@ -48,91 +47,99 @@
         </div>
     </div>
 
-
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item" aria-current="page"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">No Time To Die</li>
-        </ol>
-    </nav>
-
-
-    <div class="col-sm-12 col-md-6 col-lg-6">
-        <img src="img/007.jpg" alt="No Time To Die">
-        <p>
-            In de 25e James Bond-film No Time to Die heeft James Bond zijn turbulente leven als
-            geheim agent achter zich gelaten en leidt hij een rustig bestaan op Jamaica. Dit wordt abrupt
-            onderbroken wanneer zijn oude vriend en CIA agent Felix Leiter hem vraagt om een ontvoerde
-            wetenschapper te helpen bevrijden<span id="dots">...</span><span id="more"> Deze missie blijkt
-                verraderlijker dan gedacht en brengt Bond op
-                het spoor van een mysterieuze schurk die gewapend is met levensgevaarlijke nieuwe technologie. In No
-                Time to Die keert Daniel Craig terug voor zijn vijfde film als Ian Flemings James Bond 007.
-                Deze film duurt <strong>163 minuten</strong> en heeft een beoordeling van <br> 
-                <em class="fa fa-star checked"></em>
-                <em class="fa fa-star checked"></em>
-                <em class="fa fa-star checked"></em>
-                <em class="fa fa-star checked"></em>
-                <em class="fa fa-star checked"></em> <br> </span>
-            <button onclick="readMore()" id="myBtn" class="btn btn-outline-primary">Lees meer</button>
-        <p class="redirect">Klik <strong><a class="link" href="https://www.youtube.com/watch?v=vw2FOYjCz38"
-                    target="_blank">hier</a></strong> om de trailer te bekijken!</p>
-        <p class="redirect">Klik <strong><a class="link" href="007-cast.html">hier</a></strong> om de cast van deze film
-            te bekijken!</p>
-        </p>
-    </div>
-
     <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item" aria-current="page"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">No Time To Die</li>
+            </ol>
+        </nav>
+
         <div class="row">
-            <div class="col-xs-12 col-md-6 col-lg-3 align-items-center justify-content-center">
+            <div class="col-sm-12">
+                <img src="img/007.jpg" alt="No Time To Die">
+                <p>
+                    In de 25e James Bond-film No Time to Die heeft James Bond zijn turbulente leven als
+                    geheim agent achter zich gelaten en leidt hij een rustig bestaan op Jamaica. Dit wordt abrupt
+                    onderbroken wanneer zijn oude vriend en CIA agent Felix Leiter hem vraagt om een ontvoerde
+                    wetenschapper te helpen bevrijden<span id="dots">...</span><span id="more"> Deze missie blijkt
+                        verraderlijker dan gedacht en brengt Bond op
+                        het spoor van een mysterieuze schurk die gewapend is met levensgevaarlijke nieuwe technologie. In No
+                        Time to Die keert Daniel Craig terug voor zijn vijfde film als Ian Flemings James Bond 007.
+                        Deze film duurt <strong>163 minuten</strong> en heeft een beoordeling van <br> 
+                        <em class="fa fa-star checked"></em>
+                        <em class="fa fa-star checked"></em>
+                        <em class="fa fa-star checked"></em>
+                        <em class="fa fa-star checked"></em>
+                        <em class="fa fa-star checked"></em> <br> </span>
+                    <button onclick="readMore()" id="myBtn" class="btn btn-outline-primary">Lees meer</button>
+                <p class="redirect">Klik <strong><a class="link" href="https://www.youtube.com/watch?v=vw2FOYjCz38"
+                            target="_blank">hier</a></strong> om de trailer te bekijken!</p>
+                <p class="redirect">Klik <strong><a class="link" href="007-cast.html">hier</a></strong> om de cast van deze film
+                    te bekijken!</p>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
                 <form action="#">
-                    <h3>Nieuwe Review</h3>
-                    <input type="text" placeholder="Naam...">
-                    <input type="text" placeholder="Aantal sterren...">
-                    <input type="text" placeholder="Review...">
-                    <button type="submit" name="submit">Submit</button>
+                    <h1>Nieuwe Review</h1>
+                    <input class="my-1" type="text" placeholder="Naam...">
+                    <input class="my-1"type="text" placeholder="Aantal sterren...">
+                    <input class="my-1" type="text" placeholder="Review...">
+                    <button class="btn btn-outline-primary my-2" type="submit" name="submit">Submit</button>
                 </form>
             </div>
+        </div>
 
-            <div class="card col-xs-12 col-md-6 col-lg-3">
-                <div class="card-block card-body">
-                    <h2 class="card-title">Martijn Schermers</h2>
-                    <p class="card-text">Echt een leuke film! Veel actie waardoor je de aandacht er zeker bij houdt.</p>
-                    <em class="fa fa-star checked"></em>
-                    <em class="fa fa-star checked"></em>
-                    <em class="fa fa-star checked"></em>
-                    <em class="fa fa-star checked"></em>
-                    <em class="fa fa-star-half checked"></em>
+        <div class="row align-items-center justify-content-center m-3">
+            <div class="col-sm-12 col-md-5">
+                <div class="card">
+                    <h2 class="card-header">Jurgen Wagenveld</h2>
+                    <div class="card-body">
+                        <p class="card-text">Daniel Craig en Hans Zimmer hebben de hoofdrollen in deze grootse en eervolle terugkeer van Bond op het witte doek.</p>
+                        <em class="fa fa-star checked"></em>
+                        <em class="fa fa-star checked"></em>
+                        <em class="fa fa-star checked"></em>
+                        <em class="fa fa-star checked"></em>
+                        <em class="fa fa-star-half checked"></em>
+                    </div>
                 </div>
             </div>
 
-            <div class="card col-xs-12 col-md-6 col-lg-3">
-                <div class="card-block card-body">
-                    <h2 class="card-title">John Deb</h2>
-                    <p class="card-text"> Ja, ik als bondliefhebber, vond dit echt top. Ik ben zelf fan van Sean Connery en
-                        Roger Moore en ze gaan
-                        eindelijk deze kant weer op. Dit wil ik graag zien in een bond film! Ook al vind ik Casino Royale
-                        nog
-                        steeds een van de beste gemaakt, dit was zo ongelofelijk gaaf. Met lekker veel actie. De film had
-                        wel
-                        ietsjes korter gemogen en voelde vooral bij het hotel gedeelte wat te lang aan.
-                    </p>
-                    <em class="fa fa-star checked"></em>
-                    <em class="fa fa-star checked"></em>
-                    <em class="fa fa-star checked"></em>
-                    <em class="fa fa-star checked"></em>
-                    <em class="fa fa-star checked"></em>
+            <div class="col-sm-12 col-md-5">
+                <div class="card">
+                    <h2 class="card-header">Joris Leeflang</h2>
+                    <div class="card-body">
+                        <p class="card-text">Weer een top James Bond film, de muziek van Billie Eilish was ook top. Het heeft lang geduurd maar het wachten was het waard!
+                        </p>
+                        <em class="fa fa-star checked"></em>
+                        <em class="fa fa-star checked"></em>
+                        <em class="fa fa-star checked"></em>
+                        <em class="fa fa-star checked"></em>
+                        <em class="fa fa-star checked"></em>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <footer>
-        <h2>Klik <a href="about.html" class="link">hier</a> om meer te weten te komen over deze website!</h2>
-        <h2>Webdesign door Martijn</h2>
-    </footer>
+    <div class="navbar bottom footer">    
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <p class="m-auto">Lees meer over deze site!</p>
+                   <a class="btn btn-outline-light btn-rounded" href="about.html">About Me</a> 
+            </div>
+        </div>
 
-
+        <div class="p-1">
+            © 2021 Copyright:
+            <a class="text-white" href="index.html">Aqua Movies</a>
+        </div>
+    </div>
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
