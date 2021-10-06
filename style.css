@@ -54,6 +54,20 @@ h3 {
     font-size: 1.4rem;
 }
 
+a[href="#"] {
+    font-size: 2rem;
+    color: white; 
+    transition: .3s linear;
+}
+
+a[href="#"]:hover {
+    color: #66FCF1; 
+}
+
+.navbar.bottom.footer a[href="index.html"] {
+    color: #66FCF1;
+}
+
 .card {
     background-color: #1F2833;
 }
@@ -69,12 +83,13 @@ h3 {
     transform: scale(1.01);
 }
 
-.carousel-item {
-    height: 650px;
-}
 
 .card-header {
     background-color: #2e3a47; 
+}
+
+.carousel-item {
+    height: 650px;
 }
 
 .carousel-item img {
@@ -187,14 +202,24 @@ img[src="img/daniel.jpg"], img[src="img/007_cast.jpg"] {
 #myBtn {font-size: 1.1rem;}
 
 /* Media Queries */
-@media (min-width: 576px) { 
-
-
-}
 
 @media (max-width: 576px) {
     html {
       font-size: 0.8rem;
+    }
+
+    .movies .card {
+        /* width: 400px; 
+        height: 430px; */
+        margin-bottom: 10px; 
+    }
+
+    .carousel-item {
+        height: 250px;
+    }
+
+    .carousel-item img {
+        min-height: 250px;
     }
 }
 
