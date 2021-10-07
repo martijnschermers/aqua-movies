@@ -150,7 +150,7 @@ a[href="#"]:hover {
 }
 
 .about {
-    background-image: url(img/about.png); 
+    background-image: url(img/about.jpg); 
     background-size: cover;
     background-position: center;
 }
