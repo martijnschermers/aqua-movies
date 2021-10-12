@@ -5,8 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
     <meta name="description" content="Aqua Movies is een site met informatie over meerdere recente films.">
     <meta name="robots" content="index, follow">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -76,15 +80,15 @@
 
     <div class="container movies" id="movies">
         <form class="form-inline mt-3">
-            <input type="text" placeholder="Zoeken..." id="inputSearch" class="mr-sm-2 form-control" aria-label="Search">
+            <input type="text" placeholder="Zoeken..." id="inputSearch" class="mr-2" aria-label="Search">
             <button onclick="search()" class="btn btn-outline-primary" type="button" aria-label="Search Movie"><em class="fa fa-search"></em></button>
         </form>
 
-        <div class="row my-3" id="frontpage-movies">
-            <div class="col-sm-6 col-md-6 col-lg-3">
+        <div class="card-deck align-items-center justify-content-center" id="frontpage-movies">
+            <div class="col-xs-6 col-sm-10 col-md-6 col-lg-3">
                 <div class="card">
                     <img src="img/007.jpg" alt="No Time To Die" class="card-img-top rounded">
-                    <div class="card-block card-body">
+                    <div class="card-body">
                         <h3 class="card-title">No Time To Die</h3>
                         <p class="card-text">De welbekende James Bond film. Na een lange tijd van uitstellen is het eindelijk zover! Lees meer hieronder.</p>
                         <a href="007.html" class="btn btn-primary">Meer Informatie</a>
@@ -92,36 +96,32 @@
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="col-xs-6 col-sm-5 col-md-6 col-lg-3">
                 <div class="card">
                     <img src="img/f9.jpg" alt="Fast And The Furious 9" class="card-img-top rounded">
-                    <div class="card-block card-body">
-                        <h3 class="card-title">Fast And The Furious 9</h3>
+                    <div class="card-body">
+                        <h4 class="card-title">Fast And The Furious 9</h4>
                         <p class="card-text">Een nieuwe film in de Fast And The Furious serie. Zoals gewoonlijk weer een hoop actie! Lees meer hieronder.</p>
                         <a href="f9.html" class="btn btn-primary">Meer Informatie</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="col-xs-6 col-sm-5 col-md-6 col-lg-3">
                 <div class="card">
                     <img src="img/bw.jpg" alt="Black Widow" class="card-img-top rounded">
-                    <div class="card-block card-body">
+                    <div class="card-body">
                         <h3 class="card-title">Black Widow</h3>
                         <p class="card-text">Een nieuwe film in de Marvel serie genaamd Black Widow! Het verleden van Natasha Romanoff haalt haar in.</p>
                         <a href="f9.html" class="btn btn-primary disabled">Meer Informatie</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <div class="container movies">
-        <div class="row my-3">
-            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="col-xs-6 col-sm-5 col-md-6 col-lg-3">
                 <div class="card">
                     <img src="img/dune.jpg" alt="Dune" class="card-img-top rounded">
-                    <div class="card-block card-body">
+                    <div class="card-body">
                         <h3 class="card-title">Dune</h3>
                         <p class="card-text">Hij moet naar de gevaarlijkste planeet in het universum reizen om de toekomst van zijn familie en volk veilig te stellen.</p>
                         <a href="f9.html" class="btn btn-primary disabled">Meer Informatie</a>
@@ -129,10 +129,10 @@
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="col-xs-6 col-sm-5 col-md-6 col-lg-3">
                 <div class="card">
                     <img src="img/shang-chi.jpg" alt="Shang Chi" class="card-img-top rounded">
-                    <div class="card-block card-body">
+                    <div class="card-body">
                         <h3 class="card-title">Shang Chi</h3>
                         <p class="card-text">In Shang-Chi moet Shang-Chi het verleden confronteren dat hij achtergelaten dacht te hebben.</p>
                         <a href="f9.html" class="btn btn-primary disabled">Meer Informatie</a>
@@ -140,25 +140,21 @@
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="col-xs-6 col-sm-5 col-md-6 col-lg-3">
                 <div class="card">
                     <img src="img/queenpins.jpg" alt="Queenpins" class="card-img-top rounded">
-                    <div class="card-block card-body">
+                    <div class="card-body">
                         <h3 class="card-title">Queenpins</h3>
                         <p class="card-text">Connie en JoJo zijn beste vriendinnen en ware coupon queens: ze proberen hun torenhoge rekeningen weg te werken.</p>
                         <a href="f9.html" class="btn btn-primary disabled">Meer Informatie</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <div class="container movies">
-        <div class="row my-3">
-            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="col-xs-6 col-sm-5 col-md-6 col-lg-3">
                 <div class="card">
                     <img src="img/the-father.jpg" alt="The Father" class="card-img-top rounded">
-                    <div class="card-block card-body">
+                    <div class="card-body">
                         <h3 class="card-title">The Father</h3>
                         <p class="card-text">The Father is een fascinerend portret van een man die zijn grip op de realiteit aan het verliezen is.</p>
                         <a href="f9.html" class="btn btn-primary disabled">Meer Informatie</a>
@@ -166,10 +162,10 @@
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="col-xs-6 col-sm-5 col-md-6 col-lg-3">
                 <div class="card">
                     <img src="img/till-death.jpg" alt="Till Death" class="card-img-top rounded">
-                    <div class="card-block card-body">
+                    <div class="card-body">
                         <h3 class="card-title">Till Death</h3>
                         <p class="card-text">In deze spannende thriller vieren Emma en Mark hun stalen huwelijksjubileum in een afgelegen vakantiehuis.</p>
                         <a href="f9.html" class="btn btn-primary disabled">Meer Informatie</a>
@@ -177,10 +173,10 @@
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="col-xs-6 col-sm-5 col-md-6 col-lg-3">
                 <div class="card">
                     <img src="img/free-guy.jpg" alt="Free Guy" class="card-img-top rounded">
-                    <div class="card-block card-body">
+                    <div class="card-body">
                         <h3 class="card-title">Free Guy</h3>
                         <p class="card-text">In Free Guy ontdekt een bankbediende dat hij eigenlijk een figurant is in een open-world videogame.</p>
                         <a href="f9.html" class="btn btn-primary disabled">Meer Informatie</a>
