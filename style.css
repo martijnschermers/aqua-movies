@@ -10,6 +10,10 @@ html {
     font-size: 1rem;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     background-color: #0B0C10;
     text-align: center;
@@ -107,10 +111,8 @@ nav.navbar h2 {
 .movies .card {
     transition: .3s linear;
     width: 100%;
-    height: 550px;
-    margin-top: 10px;
-    align-items: center;
-    justify-content: center;
+    height: auto;
+    margin: 10px 0px 10px 0px;
 }
 
 .movies .card:hover {
@@ -120,11 +122,6 @@ nav.navbar h2 {
 
 .card-header {
     background-color: #2e3a47; 
-}
-
-.movies .row{
-    align-items: center;
-    justify-content: center;
 }
 
 .breadcrumbs .row {
@@ -204,11 +201,11 @@ nav.navbar h2 {
     html {
       font-size: 0.8rem;
     }
-
     .movies .card {
-        /* width: 400px; 
-        height: 430px; */
-        margin-bottom: 10px; 
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+        margin: 10px auto;
     }
 
     .carousel-item {
@@ -223,5 +220,4 @@ nav.navbar h2 {
         width: 180px;
     }
 }
-
 /* Media Queries Einde */
