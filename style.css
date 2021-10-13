@@ -201,11 +201,16 @@ nav.navbar h2 {
     html {
       font-size: 0.8rem;
     }
+
     .movies .card {
         width: 400px;
         align-items: center;
         justify-content: center;
         margin: 10px auto;
+    }
+
+    div.col-md-3, .container.movies {
+        padding: 0px 0px;
     }
 
     .carousel-item {
