@@ -10,11 +10,6 @@ html {
     font-size: 1rem;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 html, body {
     overflow-x: hidden;
 }
@@ -25,11 +20,9 @@ body {
     color: white; 
 }
 
-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 input {
@@ -149,7 +142,7 @@ nav.navbar h2 {
 }
 
 .bond {
-    background-image: url(img/slide1.jpg); 
+    background-image: url(img/slide1.webp); 
     background-size: cover;
     background-position: center;
 }
@@ -173,7 +166,7 @@ nav.navbar h2 {
 }
 
 .f9 {
-    background-image: url(img/slide3.jpg); 
+    background-image: url(img/slide3.webp); 
     background-size: cover;
     background-position: center;
 }
@@ -196,6 +189,11 @@ nav.navbar h2 {
 
 .display-3 {
     font-weight: 500;
+}
+
+.link {
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
 
 #more {display: none;}
