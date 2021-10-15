@@ -19,7 +19,7 @@
         <a href="index.html" class="navbar-brand"><img src="img/logo.jpg" alt="Logo"
                 class="d-inline-block align-top"></a>
         <h1 class="text-uppercase">Aqua Movies</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -48,50 +48,61 @@
         </div>
     </div>
 
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item" aria-current="page"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="007.html">No Time To Die</a></li>
-            <li class="breadcrumb-item active" aria-current="page">No Time To Die Cast</li>
-        </ol>
-    </nav>
-
     <div class="container">
-        <div class="content d-flex flex-row">
-            <img src="img/daniel.jpg" alt="James Bond">
-            <p class="text-left p-3"> In 2005 werd Craig door EON Productions gekozen om de nieuwe James Bond te
-                vertolken. De toen 37-jarige acteur trad in de voetsporen van Pierce Brosnan. Op 14 oktober 2005 werd
-                hij na een boottocht op de Thames aan de pers voorgesteld. Craig was de eerste Bondacteur die na 1962,
-                het begin van de filmreeks, en het overlijden van Ian Fleming, de schrijver van de boeken waarop de
-                filmreeks gebaseerd is, geboren werd. In de maanden na de bekendmaking werd de keuze voor Craig
-                regelmatig bekritiseerd omdat hij met zijn blonde haren, blauwe ogen en gemiddelde lengte (178 cm) niet
-                voldeed aan wat toen beschouwd werd als de fysieke vereisten voor de rol van James Bond. Er verschenen
-                verscheidene internetcampagnes die opriepen om zijn eerste Bondfilm te boycotten. In november 2006 ging
-                Casino Royale in première. Zijn eerste Bondfilm werd een kassucces; wereldwijd bracht de film zo'n 600
-                miljoen dollar op<span id="dots">...</span><span id="more">De filmpers prees ook Craigs acteerprestatie en geloofwaardigheid. Reeds in juli 2006
-                kondigden producenten Barbara Broccoli en Michael G. Wilson aan dat de volgende Bondfilm Quantum of
-                Solace zou heten en dat de film in 2008 in première zou gaan. Door de Writers' Strike, een staking van
-                de Writers Guild of America in de periode 2007-2008, werden Craig en regisseur Marc Forster verplicht om
-                zelf enkele scènes te schrijven. Quantum of Solace bracht meer dan 580 miljoen dollar op, maar kreeg
-                minder positieve recensies dan zijn voorganger. In 2008 werkte Craig ook mee aan de videogame 007:
-                Quantum of Solace.</span>
-                <button onclick="readMore()" id="myBtn" class="btn btn-outline-primary">Lees meer</button>
-            </p>
-        </div>
-    </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item" aria-current="page"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="007.html">No Time To Die</a></li>
+                <li class="breadcrumb-item active" aria-current="page">No Time To Die Cast</li>
+            </ol>
+        </nav>
 
-    <div class="container p-3">
-        <div class="content d-flex flex-row-reverse">
-            <img src="img/007_cast.jpg" alt="No Time To Die Cast">
-            <p class="p-2"> De cast bestaat uit Rami Malek, Léa Seydoux, Lashana Lynch, Ben Whishaw,
-                Naomie
-                Harris, Billy Magnussen, Ana de Armas, Rory Kinnear, David Dencik, Dali Benssalah, Jeffrey Wright en
-                Ralph Fiennes. Deze co-productie van Albert R. Broccoli’s
-                EON Productions, Metro Goldwyn Mayer Studios (MGM) en Universal Pictures International is
-                geregisseerd door Cary Joji Fukunaga (Beasts of No Nation, True Detective). Het scenario is
-                geschreven door Neal Purvis & Robert Wade (Spectre, Skyfall), Cary Joji Fukunaga, Scott Z. Burns
-                (Contagion, The Bourne Ultimatum) en Phoebe Waller-Bridge (Killing Eve, Fleabag).
-            </p>
+        <!-- <div class="col-md-3">
+            <div class="card">
+                <img src="img/bw.jpg" alt="Black Widow" class="card-img-top rounded">
+                <div class="card-body">
+                    <h3 class="card-title">Black Widow</h3>
+                    <p class="card-text">Een nieuwe film in de Marvel serie genaamd Black Widow! Het verleden van Natasha Romanoff haalt haar in.</p>
+                    <a href="f9.html" class="btn btn-primary disabled">Meer Informatie</a>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="card mb-3">
+                    <h2 class="card-header">Daniel Craig</h2>
+                    <div class="card-body">
+                        <p class="text-left m-0"> In 2005 werd Craig door EON Productions gekozen om de nieuwe James Bond te
+                            vertolken. De toen 37-jarige acteur trad in de voetsporen van Pierce Brosnan. Op 14 oktober 2005 werd
+                            hij na een boottocht op de Thames aan de pers voorgesteld. Craig was de eerste Bondacteur die na 1962,
+                            het begin van de filmreeks, en het overlijden van Ian Fleming, de schrijver van de boeken waarop de
+                            filmreeks gebaseerd is, geboren werd. In de maanden na de bekendmaking werd de keuze voor Craig
+                            regelmatig bekritiseerd omdat hij met zijn blonde haren, blauwe ogen en gemiddelde lengte (178 cm) niet
+                            voldeed de fysieke vereisten voor de rol van James Bond.
+                        </p>
+                    </div>
+                    <img src="img/daniel.jpg" alt="Daniel Craig" class="card-img-top rounded">
+                </div>
+            </div>
+ 
+            <div class="col-md-5">
+                <div class="card mb-3">
+                    <h2 class="card-header">Cast</h2>
+                    <div class="card-body">
+                        <p class="text-left m-0"> De cast bestaat uit Rami Malek, Léa Seydoux, Lashana Lynch, Ben Whishaw,
+                            Naomie
+                            Harris, Billy Magnussen, Ana de Armas, Rory Kinnear, David Dencik, Dali Benssalah, Jeffrey Wright en
+                            Ralph Fiennes. Deze co-productie van Albert R. Broccoli’s
+                            EON Productions, Metro Goldwyn Mayer Studios (MGM) en Universal Pictures International is
+                            geregisseerd door Cary Joji Fukunaga (Beasts of No Nation, True Detective). Het scenario is
+                            geschreven door Neal Purvis & Robert Wade (Spectre, Skyfall), Cary Joji Fukunaga, Scott Z. Burns
+                            (Contagion, The Bourne Ultimatum) en Phoebe Waller-Bridge (Killing Eve, Fleabag).
+                        </p>
+                    </div>
+                    <img src="img/007_cast.jpg" alt="No Time To Die Cast" class="card-img-top rounded">
+                </div>
+            </div>
         </div>
     </div>
 
