@@ -29,7 +29,7 @@ input {
     outline: none; 
     padding: 5px;
     border-radius: 4px;
-    width: 25%;
+    width: 250px;
 }
 
 label,
@@ -196,6 +196,37 @@ nav.navbar h2 {
     text-transform: uppercase;
 }
 
+.pagination > li > a
+{
+    font-size: 1.2rem;
+    background-color: #0B0C10;
+    color: var(--primary);
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: white;
+    background-color: var(--primary);
+    border: solid 1px var(--primary) !Important;
+    border-color: var(--primary);
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: #5A4181 !Important;
+    border: solid 1px var(--primary) !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #0B0C10 !Important;
+    border: solid 1px var(--primary);
+}
+
 #more {display: none;}
 #myBtn {font-size: 1.1rem;}
 
@@ -214,18 +245,6 @@ nav.navbar h2 {
 
     div.col-md-3, .container.movies {
         padding: 0px 0px;
-    }
-
-    .carousel-item {
-        height: 250px;
-    }
-
-    .carousel-item img {
-        min-height: 250px;
-    }
-
-    input {
-        width: 180px;
     }
 }
 /* Media Queries Einde */
