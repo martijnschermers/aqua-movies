@@ -12,6 +12,7 @@ html {
 
 html, body {
     overflow-x: hidden;
+    width: 100vw;
 }
 
 body {
@@ -98,7 +99,7 @@ nav.navbar h2 {
     display: block;
 }
 
-.navbar.bottom.footer a[href="index.html"] {
+.navbar.bottom.footer a[href="index.html"], .navbar.fixed-bottom.footer a[href="index.html"] {
     color: #66FCF1;
 }
 
