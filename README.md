@@ -8,7 +8,7 @@ The site contains some information about recent movies.
 The site is build with Bootstrap and some extra styling with CSS. 
 It is possible to search for films on the home page. This functionality is created with some basic JavaScript. 
 The content of the site is in Dutch so it may be possible that some of you don't understand it. 
-## Screenshots
+## Screenshot
 
 ![Showcase](https://i.imgur.com/WgGtb4e.jpeg)
 
