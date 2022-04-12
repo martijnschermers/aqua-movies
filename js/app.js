@@ -36,3 +36,6 @@ function search() {
     document.getElementById("inputSearch").value = "";
   }
 }
+
+let footerYear = document.querySelector('footer h4 span');
+footerYear.innerHTML = new Date().getFullYear();
